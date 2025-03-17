@@ -2,7 +2,7 @@
   "name": "Shairport Sync",
   "version": "0.0.3",
   "slug": "shairport_sync",
-  "description": "Shairport Sync for Hass.io",
+  "description": "Shairport Sync",
   "url": "https://github.com/shoei1944/addon-shairport-sync",
   "startup": "application",
   "arch": [
@@ -29,6 +29,7 @@
     "avahi_domainname": "local",
     "airplay_name": "Hass.io",
     "enable_ipv6": false
+    "buffer": 100
   },
   "schema": {
     "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
@@ -36,7 +37,8 @@
     "avahi_hostname": "str",
     "avahi_domainname": "str",
     "airplay_name": "str",
-    "enable_ipv6": "bool"
+    "enable_ipv6": "bool",
+    "buffer": "int"
   },
   "environment": {
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
