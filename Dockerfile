@@ -74,8 +74,8 @@ ARG BUILD_VERSION
 # Labels
 LABEL \
     io.hass.name="Shairport Sync" \
-    io.hass.description="Shairport Sync for Hass.io" \
+    io.hass.description="Shairport Sync" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="Maido Käära <m@maido.io>"
+    maintainer="reimu@kudere.ru"
